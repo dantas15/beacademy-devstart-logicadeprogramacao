@@ -28,7 +28,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarToggler">
-                <a class="navbar-brand" href="index.php">
+                <a class="navbar-brand" href="/index.php">
                     <img src="../assets/home.svg" alt="Home" width="30" height="24">
                 </a>
             </div>
