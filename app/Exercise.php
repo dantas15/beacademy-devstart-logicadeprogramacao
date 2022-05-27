@@ -38,6 +38,10 @@ class Exercise
                 'title' => 'exercise-01',
                 'description' => 'Basic input and output form',
             ],
+            1 => [
+                'title' => 'exercise-02',
+                'description' => 'Body mass index calculation'
+            ],
         ];
 
         $exercises = array();
