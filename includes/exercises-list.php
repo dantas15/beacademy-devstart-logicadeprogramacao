@@ -15,7 +15,7 @@ foreach ($exercises as $exercise) {
 $display = strlen($display) ? $display : '<h1>No exercise found :(</h1>'
 ?>
 
-<main class="container customText">
+
     <h1 class="mt-4 mb-2">All exercises</h1>
 
     <hr/>
@@ -23,4 +23,3 @@ $display = strlen($display) ? $display : '<h1>No exercise found :(</h1>'
     <section class="list-group">
         <?=$display?>
     </section>
-</main>
