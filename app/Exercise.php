@@ -46,6 +46,10 @@ class Exercise
                 'title' => 'exercise-03',
                 'description' => 'If conditionals introduction.'
             ],
+            4 => [
+                'title' => 'exercise-04',
+                'description' => 'Update balance based on income input'
+            ],
         ];
 
         $exercises = array();
