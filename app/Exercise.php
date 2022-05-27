@@ -42,6 +42,10 @@ class Exercise
                 'title' => 'exercise-02',
                 'description' => 'Body mass index calculation'
             ],
+            3 => [
+                'title' => 'exercise-03',
+                'description' => 'If conditionals introduction.'
+            ],
         ];
 
         $exercises = array();
