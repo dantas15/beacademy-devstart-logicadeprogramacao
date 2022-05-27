@@ -35,12 +35,8 @@ class Exercise
     {
         $exercisesArr = [
             0 => [
-                'title' => 'test',
-                'description' => 'Just a test...',
-            ],
-            1 => [
-                'title' => 'another-test',
-                'description' => 'Another test',
+                'title' => 'exercise-01',
+                'description' => 'Basic input and output form',
             ],
         ];
 
