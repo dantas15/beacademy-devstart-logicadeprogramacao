@@ -42,11 +42,11 @@ class Exercise
                 'title' => 'exercise-02',
                 'description' => 'Body mass index calculation'
             ],
-            3 => [
+            2 => [
                 'title' => 'exercise-03',
                 'description' => 'If conditionals introduction.'
             ],
-            4 => [
+            3 => [
                 'title' => 'exercise-04',
                 'description' => 'Update balance based on income input'
             ],
