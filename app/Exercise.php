@@ -35,13 +35,45 @@ class Exercise
     {
         $exercisesArr = [
             0 => [
-                'title' => 'test',
-                'description' => 'Just a test...',
+                'title' => 'exercise-01',
+                'description' => 'Basic input and output form',
             ],
             1 => [
-                'title' => 'another-test',
-                'description' => 'Another test',
+                'title' => 'exercise-02',
+                'description' => 'Body mass index calculation'
             ],
+            2 => [
+                'title' => 'exercise-03',
+                'description' => 'If conditionals introduction.'
+            ],
+            3 => [
+                'title' => 'exercise-04',
+                'description' => 'Update balance based on income input'
+            ],
+            4 => [
+                'title' => 'exercise-05',
+                'description' => 'Improved BMI calculator',
+            ],
+            5 => [
+                'title' => 'exercise-06',
+                'description' => 'If-Else fundamentals exercise',
+            ],
+            6 => [
+                'title' => 'exercise-07',
+                'description' => 'Improved balance manager',
+            ],
+            7 => [
+                'title' => 'exercise-08',
+                'description' => '2 number calculators using radio buttons for the 4 operations: + - * /',
+            ],
+            8 => [
+                'title' => 'exercise-09',
+                'description' => 'Shows how to calculate Square and Triangle perimeter and area',
+            ],
+            9 => [
+                'title' => 'exercise-10',
+                'description' => 'Improved balance manager with money transfer'
+            ]
         ];
 
         $exercises = array();
@@ -62,7 +94,7 @@ class Exercise
         $exercises = Exercise::getExercises();
 
         foreach ($exercises as $exercise) {
-            if( $title == $exercise->title) {
+            if ($title == $exercise->title) {
                 return $exercise;
             }
         }
