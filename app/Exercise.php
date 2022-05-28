@@ -62,6 +62,10 @@ class Exercise
                 'title' =>'exercise-07',
                 'description' => 'Improved balance manager',
             ],
+            7 => [
+                'title' =>'exercise-08',
+                'description' => '2 number calculators using radio buttons for the 4 operations: + - * /',
+            ],
         ];
 
         $exercises = array();
