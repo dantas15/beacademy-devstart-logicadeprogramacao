@@ -3,10 +3,12 @@
 require __DIR__ . '/../vendor/autoload.php';
 
 if (isset($_POST['name']) && isset($_POST['weight']) && isset($_POST['height'])) {
-    $weight = $_POST['weight'];
-    $height = $_POST['height'];
+    $weight = (float)$_POST['weight'];
+    $height = (float)$_POST['height'];
 
-    $bmi = $height * $height / $weight;
+    $height /= 100;
+
+    $bmi = $weight / ($height * $height) ;
 
     $display = '
     <h2>Result:</h2>
@@ -26,12 +28,12 @@ include __DIR__ . '/../includes/head.php';
             <input type="text" class="form-control" id="name" name="name" value="<?= $_POST['name'] ?>" required>
         </div>
         <div class="mb-3">
-            <label for="weight" class="form-label">Weight</label>
-            <input type="number" class="form-control" id="weight" name="weight" value="<?= $_POST['weight'] ?>" required>
+            <label for="weight" class="form-label">Weight (kg)</label>
+            <input type="number" class="form-control" id="weight" name="weight" value="<?= $_POST['weight'] ?>" step="0.01" required>
         </div>
         <div class="mb-3">
-            <label for="height" class="form-label">Height</label>
-            <input type="number" class="form-control" id="height" name="height" value="<?= $_POST['height'] ?>" required>
+            <label for="height" class="form-label">Height (cm)</label>
+            <input type="number" class="form-control" id="height" name="height" value="<?= $_POST['height'] ?>" step="0.01" required>
         </div>
         <div class="w-100 d-flex justify-content-end">
             <button type="submit" class="mt-4 btn btn-primary">Submit</button>
