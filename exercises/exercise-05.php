@@ -14,21 +14,13 @@ if (isset($_POST['weight']) && isset($_POST['height'])) {
 
     if ($bmi < 19) {
         $message = 'Under weight';
-    }
-
-    if ($bmi >= 19 && $bmi < 25) {
+    } elseif ( $bmi < 25) {
         $message = 'Normal weight';
-    }
-
-    if ($bmi >= 25 && $bmi < 30) {
+    } elseif ($bmi < 30) {
         $message = 'Overweight';
-    }
-
-    if ($bmi >= 30 && $bmi < 40) {
+    } elseif ($bmi < 40) {
         $message = 'Obesity I';
-    }
-
-    if ($bmi >= 40) {
+    } else {
         $message = 'Morbid obesity';
     }
 
