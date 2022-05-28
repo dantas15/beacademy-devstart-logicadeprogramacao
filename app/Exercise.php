@@ -54,6 +54,10 @@ class Exercise
                 'title' => 'exercise-05',
                 'description' => 'Improved BMI calculator',
             ],
+            5 => [
+                'title' => 'exercise-06',
+                'description' => 'If-Else fundamentals exercise',
+            ],
         ];
 
         $exercises = array();
