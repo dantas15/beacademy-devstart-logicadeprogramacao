@@ -28,7 +28,7 @@ include __DIR__ . '/../includes/head.php';
         <div class="mb-3 customBg">
             <label for="income" class="form-label">Income</label>
             <input type="number" class="form-control" id="income" name="income" value="<?= $_POST['income'] ?>" min="1"
-                   required>
+                   step="0.01" required>
         </div>
         <input type="hidden" name="prevBalance" value="<?= $prevBalance ?>">
         <div class="w-100 d-flex justify-content-end">
