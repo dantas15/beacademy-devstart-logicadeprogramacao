@@ -66,6 +66,10 @@ class Exercise
                 'title' =>'exercise-08',
                 'description' => '2 number calculators using radio buttons for the 4 operations: + - * /',
             ],
+            8 => [
+                'title' =>'exercise-09',
+                'description' => 'Shows how to calculate Square and Triangle perimeter and area',
+            ],
         ];
 
         $exercises = array();
