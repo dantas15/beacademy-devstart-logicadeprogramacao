@@ -59,17 +59,21 @@ class Exercise
                 'description' => 'If-Else fundamentals exercise',
             ],
             6 => [
-                'title' =>'exercise-07',
+                'title' => 'exercise-07',
                 'description' => 'Improved balance manager',
             ],
             7 => [
-                'title' =>'exercise-08',
+                'title' => 'exercise-08',
                 'description' => '2 number calculators using radio buttons for the 4 operations: + - * /',
             ],
             8 => [
-                'title' =>'exercise-09',
+                'title' => 'exercise-09',
                 'description' => 'Shows how to calculate Square and Triangle perimeter and area',
             ],
+            9 => [
+                'title' => 'exercise-10',
+                'description' => 'Improved balance manager with money transfer'
+            ]
         ];
 
         $exercises = array();
@@ -90,7 +94,7 @@ class Exercise
         $exercises = Exercise::getExercises();
 
         foreach ($exercises as $exercise) {
-            if( $title == $exercise->title) {
+            if ($title == $exercise->title) {
                 return $exercise;
             }
         }
