@@ -54,13 +54,13 @@ include __DIR__ . '/../includes/head.php';
             <div class="mb-3">
                 <label class="form-label">Type</label>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="valueType" id="flexRadioIncome" value="income">
+                    <input class="form-check-input" type="radio" name="valueType" id="flexRadioIncome" value="income" x-on:change="(e) => { isTransfer = !e.target.value }">
                     <label class="form-check-label" for="flexRadioIncome">
                         Income ( + )
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="valueType" id="flexRadionExpense" value="expense">
+                    <input class="form-check-input" type="radio" name="valueType" id="flexRadionExpense" value="expense" x-on:change="(e) => { isTransfer = !e.target.value }">
                     <label class="form-check-label" for="flexRadionExpense">
                         Expense ( - )
                     </label>
