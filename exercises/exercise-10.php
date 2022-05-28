@@ -60,7 +60,7 @@ include __DIR__ . '/../includes/head.php';
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="valueType" id="flexRadionExpense" value="expense"
+                    <input class="form-check-input" type="radio" name="valueType" id="flexRadionExpense" value="expense">
                     <label class="form-check-label" for="flexRadionExpense">
                         Expense ( - )
                     </label>
@@ -68,7 +68,7 @@ include __DIR__ . '/../includes/head.php';
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="valueType" id="flexRadionTransfer"
                            value="transfer"
-                           x-on:change="(e) => { isTransfer = e.target.value }"
+                           x-on:change="(e) => { isTransfer = e.target.value }">
                     <label class="form-check-label" for="flexRadionTransfer">
                         Transfer ( - )
                     </label>

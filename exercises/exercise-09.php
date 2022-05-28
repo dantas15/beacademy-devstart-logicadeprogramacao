@@ -33,7 +33,7 @@ include __DIR__ . '/../includes/head.php';
             </label>
         </div>
         <div class="form-check">
-            <input class="form-check-input" type="radio" name="type" id="radioT" value="T"
+            <input class="form-check-input" type="radio" name="type" id="radioT" value="T">
             <label class="form-check-label" for="radioT">
                 Triangle
             </label>
