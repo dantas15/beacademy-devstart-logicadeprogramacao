@@ -50,6 +50,10 @@ class Exercise
                 'title' => 'exercise-04',
                 'description' => 'Update balance based on income input'
             ],
+            4 => [
+                'title' => 'exercise-05',
+                'description' => 'Improved BMI calculator',
+            ],
         ];
 
         $exercises = array();
