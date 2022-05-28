@@ -58,6 +58,10 @@ class Exercise
                 'title' => 'exercise-06',
                 'description' => 'If-Else fundamentals exercise',
             ],
+            6 => [
+                'title' =>'exercise-07',
+                'description' => 'Improved balance manager',
+            ],
         ];
 
         $exercises = array();
