@@ -1,3 +1,13 @@
+<?php
+
+if (str_starts_with($exercise->title, 'scripts/')) {
+    $cardBody = '<small>Page not available, try running the script from this project root directory: <code>php ' . $exercise->title . '</code></small>';
+} else {
+    $cardBody = '<a href="exercises/ ' . $exercise->title . ' .php" class="card-link">Open exercise</a>';
+}
+
+?>
+
 <h1 class="mt-4 mb-2">Exercise details</h1>
 
 <hr/>
@@ -8,6 +18,6 @@
         <p class="card-text"><?= $exercise->description ?></p>
     </div>
     <div class="card-body">
-        <a href="exercises/<?= $exercise->title ?>.php" class="card-link">Open exercise</a>
+        <?= $cardBody ?>
     </div>
 </article>
