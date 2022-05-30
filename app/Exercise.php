@@ -110,7 +110,22 @@ class Exercise
                 'title' => 'scripts/exercise-19',
                 'description' => 'Age counter',
             ],
-
+            19 => [
+                'title' => 'scripts/exercise-20',
+                'description' => 'Withdraw R$150 from R$1000 using do {} while ()',
+            ],
+            20 => [
+                'title' => 'scripts/exercise-21',
+                'description' => 'Store name and price for 10 products',
+            ],
+            21 => [
+                'title' => 'scripts/exercise-22',
+                'description' => 'Calculate a student grade',
+            ],
+            22 => [
+                'title' => 'scripts/exercise-23',
+                'description' => 'Store 5 users\' information in using arrays inside arrays',
+            ],
         ];
 
         $exercises = array();
