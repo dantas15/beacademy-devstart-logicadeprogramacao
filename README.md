@@ -25,7 +25,7 @@ Aqui temos os um projeto para consolidar os principais conceitos de Lógica de p
 
    ```bash
    # Clonando com HTTPS
-   git clone https://github.com/gusgalote/beacademy-devstart-gitegithub.git
+   git clone https://github.com/gusgalote/beacademy-devstart-logicadeprogramacao.git
 
    # Entre no diretório do projeto
    cd beacademy-devstart-logicadeprogramacao
