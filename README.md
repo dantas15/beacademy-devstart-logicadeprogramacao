@@ -66,3 +66,24 @@ Aqui temos os um projeto para consolidar os principais conceitos de Lógica de p
 - [Exercício 8](exercises/exercise-08.php)
 - [Exercício 9](exercises/exercise-09.php)
 - [Exercício 10](exercises/exercise-10.php)
+- [Exercício 11](exercises/exercise-11.php)
+- [Exercício 12](exercises/exercise-12.php)
+- [Exercício 13](exercises/exercise-13.php)
+- [Exercício 14](exercises/exercise-14.php)
+- [Exercício 15](exercises/exercise-15.php)
+- [Exercício 16](exercises/exercise-16.php)
+- [Exercício 17](exercises/exercise-17.php)
+- [Exercício 18](exercises/scripts/exercise-18.php)
+- [Exercício 19](exercises/scripts/exercise-19.php)
+- [Exercício 20](exercises/scripts/exercise-20.php)
+- [Exercício 21](exercises/scripts/exercise-21.php)
+- [Exercício 22](exercises/scripts/exercise-22.php)
+- [Exercício 23](exercises/scripts/exercise-23.php)
+
+## Por que alguns possuem interface gráfica e outros não?
+
+Por serem exercícios para lógica de programação, não havia necessidade de haver uma página pra cada um. Como os primeiros eram bem simples, resolvi dar uma incrementada com HTML, CSS (usei Bootstrap) e um pouco de JS (com Alpinejs).
+
+> Além disso, com o fluxo dos submits dos `<forms>`, não conseguiria utilizar loops da melhor forma.
+
+Enfim, consegui exercitar bem minha lógica e relembrar alguns conceitos de `PHP`, espero que goste e sinta-se à vontade para abrir um PR :)

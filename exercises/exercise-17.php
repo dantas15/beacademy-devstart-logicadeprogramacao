@@ -27,6 +27,15 @@ if (isset($_POST['value']) && isset($_POST['valueType'])) {
 <p><span class="fs-5 fw-semibold">Account:</span> ' . $_POST['account'] . '</p>
 ';
             break;
+        case 'loan':
+            $currentBalance = $prevBalance + $value;
+            $bankInfo = '<h3>Bank info:
+</h3>
+<p><span class="fs-5 fw-semibold">Bank:</span> ' . $_POST['bank'] . '</p>
+<p><span class="fs-5 fw-semibold">Agency:</span> ' . $_POST['agency'] . '</p>
+<p><span class="fs-5 fw-semibold">Account:</span> ' . $_POST['account'] . '</p>
+';
+            break;
     }
 
     $display = '
@@ -43,7 +52,7 @@ if (isset($_POST['value']) && isset($_POST['valueType'])) {
 include __DIR__ . '/../includes/head.php';
 ?>
 
-    <div x-data="{ isTransfer: false }">
+    <div x-data="{ showBankInfo: false }">
 
         <form method="post" class="container-sm">
             <div class="mb-3 mt-4">
@@ -54,13 +63,13 @@ include __DIR__ . '/../includes/head.php';
             <div class="mb-3">
                 <label class="form-label">Type</label>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="valueType" id="flexRadioIncome" value="income" x-on:change="(e) => { isTransfer = !e.target.value }">
+                    <input class="form-check-input" type="radio" name="valueType" id="flexRadioIncome" value="income" x-on:change="(e) => { showBankInfo = !e.target.value }">
                     <label class="form-check-label" for="flexRadioIncome">
                         Income ( + )
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="valueType" id="flexRadionExpense" value="expense" x-on:change="(e) => { isTransfer = !e.target.value }">
+                    <input class="form-check-input" type="radio" name="valueType" id="flexRadionExpense" value="expense" x-on:change="(e) => { showBankInfo = !e.target.value }">
                     <label class="form-check-label" for="flexRadionExpense">
                         Expense ( - )
                     </label>
@@ -68,13 +77,19 @@ include __DIR__ . '/../includes/head.php';
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="valueType" id="flexRadionTransfer"
                            value="transfer"
-                           x-on:change="(e) => { isTransfer = e.target.value }">
+                           x-on:change="(e) => { showBankInfo = e.target.value }">
                     <label class="form-check-label" for="flexRadionTransfer">
                         Transfer ( - )
                     </label>
                 </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="valueType" id="flexRadionLoan" value="loan" x-on:change="(e) => { showBankInfo = e.target.value }">
+                    <label class="form-check-label" for="flexRadionLoan">
+                        Loan ( + )
+                    </label>
+                </div>
             </div>
-            <template x-if="isTransfer">
+            <template x-if="showBankInfo">
                 <div>
                     <div class="mb-3 mt-4">
                         <label for="bank" class="form-label">Bank</label>

@@ -72,8 +72,60 @@ class Exercise
             ],
             9 => [
                 'title' => 'exercise-10',
-                'description' => 'Improved balance manager with money transfer'
-            ]
+                'description' => 'Improved balance manager with money transfer',
+            ],
+            10 => [
+                'title' => 'exercise-11',
+                'description' => 'Multiplication table of a chosen number using for loop'
+            ],
+            11 => [
+                'title' => 'exercise-12',
+                'description' => 'Shows multiples of 2 (pair numbers) between 0 and 100 using for loop'
+            ],
+            12 => [
+                'title' => 'exercise-13',
+                'description' => 'Shows multiples of 3 between 2 numbers chosen using for loop'
+            ],
+            13 => [
+                'title' => 'exercise-14',
+                'description' => 'Select how many balance transactions you want to make.',
+            ],
+            14 => [
+                'title' => 'exercise-15.php',
+                'description' => 'Multiplication table of a chosen number using while loop'
+            ],
+            15 => [
+                'title' => 'exercise-16',
+                'description' => 'Login form',
+            ],
+            16 => [
+                'title' => 'exercise-17',
+                'description' => 'Balance manager with loan option',
+            ],
+            17 => [
+                'title' => 'scripts/exercise-18',
+                'description' => 'Login with do {} while () loop',
+            ],
+            18 => [
+                'title' => 'scripts/exercise-19',
+                'description' => 'Age counter',
+            ],
+            19 => [
+                'title' => 'scripts/exercise-20',
+                'description' => 'Withdraw R$150 from R$1000 using do {} while ()',
+            ],
+            20 => [
+                'title' => 'scripts/exercise-21',
+                'description' => 'Store name and price for 10 products',
+            ],
+            21 => [
+                'title' => 'scripts/exercise-22',
+                'description' => 'Calculate a student grade',
+            ],
+            22 => [
+                'title' => 'scripts/exercise-23',
+                'description' => 'Store 5 users\' information in using arrays inside arrays',
+            ],
         ];
 
         $exercises = array();

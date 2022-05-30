@@ -49,19 +49,19 @@ include __DIR__ . '/../includes/head.php';
                     </label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="operation" id="radioMinus" value="-"
+                    <input class="form-check-input" type="radio" name="operation" id="radioMinus" value="-">
                     <label class="form-check-label" for="radioMinus">
                         -
                     </label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="operation" id="radioMult" value="*"
+                    <input class="form-check-input" type="radio" name="operation" id="radioMult" value="*">
                     <label class="form-check-label" for="radioMult">
                         *
                     </label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="operation" id="radioDiv" value="/"
+                    <input class="form-check-input" type="radio" name="operation" id="radioDiv" value="/">
                     <label class="form-check-label" for="radioDiv">
                         /
                     </label>
@@ -86,5 +86,5 @@ include __DIR__ . '/../includes/head.php';
 <?= $display ?>
 
 <?php
-include __DIR__ . '../includes/foot.php';
+include __DIR__ . '/../includes/foot.php';
 ?>
