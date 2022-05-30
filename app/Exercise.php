@@ -76,19 +76,31 @@ class Exercise
             ],
             10 => [
                 'title' => 'exercise-11',
-                'description' => 'Multiplication table of a chosen number'
+                'description' => 'Multiplication table of a chosen number using for loop'
             ],
             11 => [
-              'title' => 'exercise-12',
-              'description' => 'Shows multiples of 2 (pair numbers) between 0 and 100'
+                'title' => 'exercise-12',
+                'description' => 'Shows multiples of 2 (pair numbers) between 0 and 100 using for loop'
             ],
             12 => [
-              'title' => 'exercise-13',
-              'description' => 'Shows multiples of 3 between 2 numbers chosen'
+                'title' => 'exercise-13',
+                'description' => 'Shows multiples of 3 between 2 numbers chosen using for loop'
             ],
             13 => [
                 'title' => 'exercise-14',
                 'description' => 'Select how many balance transactions you want to make.',
+            ],
+            14 => [
+                'title' => 'exercise-15.php',
+                'description' => 'Multiplication table of a chosen number using while loop'
+            ],
+            15 => [
+                'title' => 'exercise-16',
+                'description' => 'Login form',
+            ],
+            16 => [
+                'title' => 'exercise-17',
+                'description' => 'Balance manager with deposit option',
             ],
 
         ];
