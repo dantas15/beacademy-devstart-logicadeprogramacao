@@ -100,7 +100,11 @@ class Exercise
             ],
             16 => [
                 'title' => 'exercise-17',
-                'description' => 'Balance manager with deposit option',
+                'description' => 'Balance manager with loan option',
+            ],
+            17 => [
+                'title' => 'scripts/exercise-18',
+                'description' => 'Login with do {} while () loop',
             ],
 
         ];
