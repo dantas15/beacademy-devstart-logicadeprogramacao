@@ -72,8 +72,25 @@ class Exercise
             ],
             9 => [
                 'title' => 'exercise-10',
-                'description' => 'Improved balance manager with money transfer'
-            ]
+                'description' => 'Improved balance manager with money transfer',
+            ],
+            10 => [
+                'title' => 'exercise-11',
+                'description' => 'Multiplication table of a chosen number'
+            ],
+            11 => [
+              'title' => 'exercise-12',
+              'description' => 'Shows multiples of 2 (pair numbers) between 0 and 100'
+            ],
+            12 => [
+              'title' => 'exercise-13',
+              'description' => 'Shows multiples of 3 between 2 numbers chosen'
+            ],
+            13 => [
+                'title' => 'exercise-14',
+                'description' => 'Select how many balance transactions you want to make.',
+            ],
+
         ];
 
         $exercises = array();

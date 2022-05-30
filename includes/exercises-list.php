@@ -20,6 +20,6 @@ $display = strlen($display) ? $display : '<h1>No exercise found :(</h1>'
 
     <hr/>
 
-    <section class="list-group">
+    <section class="list-group mb-5">
         <?=$display?>
     </section>
