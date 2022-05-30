@@ -45,5 +45,5 @@ include __DIR__ . '/../includes/head.php';
 <?= $display ?>
 
 <?php
-include __DIR__ . '../includes/foot.php';
+include __DIR__ . '/../includes/foot.php';
 ?>

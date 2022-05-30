@@ -20,5 +20,5 @@ include __DIR__ . '/../includes/head.php';
     </div>
 
 <?php
-include __DIR__ . '../includes/foot.php';
+include __DIR__ . '/../includes/foot.php';
 ?>
