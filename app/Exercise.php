@@ -106,6 +106,10 @@ class Exercise
                 'title' => 'scripts/exercise-18',
                 'description' => 'Login with do {} while () loop',
             ],
+            18 => [
+                'title' => 'scripts/exercise-19',
+                'description' => 'Age counter',
+            ],
 
         ];
 
